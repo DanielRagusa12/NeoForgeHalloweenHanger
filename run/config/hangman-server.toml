@@ -1,0 +1,11 @@
+[general]
+	#how much dmg the player receives when on a noose
+	#Range: 0 ~ 20
+	playerHurtDamage = 0
+	#how much dmg entities receive when on a noose
+	#Range: 1 ~ 20
+	entityHurtDamage = 5
+	#Are players damaged ?
+	canHurtPlayer = false
+	#Are entities damaged ? (omits the data pack rule 'takesDamage'
+	canHurtEntity = false

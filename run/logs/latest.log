@@ -1,0 +1,160 @@
+[02Oct2024 00:18:27.029] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.64, --assetIndex, 17, --assetsDir, C:\\Users\\danie\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.1.64, --fml.fmlVersion, 4.0.24, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[02Oct2024 00:18:27.032] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[02Oct2024 00:18:27.033] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[02Oct2024 00:18:27.151] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[02Oct2024 00:18:27.270] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[02Oct2024 00:18:27.356] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[02Oct2024 00:18:27.470] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/danie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23131!/ Service=ModLauncher Env=CLIENT
+[02Oct2024 00:18:27.637] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 7800 XT GL version 4.6.0 Core Profile Context 24.6.1.240619, ATI Technologies Inc.
+[02Oct2024 00:18:27.859] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[02Oct2024 00:18:28.799] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.64, --gameDir, ., --assetsDir, C:\Users\danie\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[02Oct2024 00:18:30.167] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 371 milliseconds
+[02Oct2024 00:18:30.253] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[02Oct2024 00:18:30.287] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02Oct2024 00:18:34.342] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Oct2024 00:18:34.343] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Oct2024 00:18:34.346] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02Oct2024 00:18:34.347] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02Oct2024 00:18:34.348] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Oct2024 00:18:34.453] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/danie/Desktop/MC_Hang_Mod/MDK-1.21-ModDevGradle/build/moddev/artifacts/neoforge-21.1.64-minecraft-merged.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[02Oct2024 00:18:34.453] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/danie/Desktop/MC_Hang_Mod/MDK-1.21-ModDevGradle/build/moddev/artifacts/neoforge-21.1.64-minecraft-merged.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[02Oct2024 00:18:34.473] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02Oct2024 00:18:34.479] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[02Oct2024 00:18:34.556] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[02Oct2024 00:18:34.743] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.64, for MC 1.21.1
+[02Oct2024 00:18:35.363] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [hangman]
+[02Oct2024 00:18:35.467] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/hangman, mod/neoforge
+[02Oct2024 00:18:35.566] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[02Oct2024 00:18:35.828] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[02Oct2024 00:18:36.319] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=north,occupied=false'
+[02Oct2024 00:18:36.319] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=west,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=west,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=east,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=east,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=east,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=south,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=south,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=east,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=north,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=north,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=west,occupied=false'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=south,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=west,occupied=true'
+[02Oct2024 00:18:36.320] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=false,facing=north,occupied=true'
+[02Oct2024 00:18:36.321] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'hangman:blockstates/noose.json' missing model for variant: 'hangman:noose#attached=true,facing=south,occupied=false'
+[02Oct2024 00:18:36.324] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hangman:item/noose' referenced from: hangman:item/noose: java.io.FileNotFoundException: hangman:models/item/noose.json
+[02Oct2024 00:18:37.000] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[02Oct2024 00:18:37.000] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[02Oct2024 00:18:37.038] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headset Earphone (HyperX 7.1 Audio)
+[02Oct2024 00:18:37.039] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[02Oct2024 00:18:37.167] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[02Oct2024 00:18:37.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[02Oct2024 00:18:37.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02Oct2024 00:18:37.177] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02Oct2024 00:18:37.178] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[02Oct2024 00:18:37.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[02Oct2024 00:18:37.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02Oct2024 00:18:37.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02Oct2024 00:18:37.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02Oct2024 00:18:37.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[02Oct2024 00:18:37.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02Oct2024 00:18:37.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02Oct2024 00:18:37.371] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[02Oct2024 00:18:37.371] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[02Oct2024 00:18:37.403] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[02Oct2024 00:18:37.517] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[02Oct2024 00:18:44.913] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[02Oct2024 00:18:45.048] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[02Oct2024 00:18:52.416] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[02Oct2024 00:18:52.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Oct2024 00:18:55.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Oct2024 00:18:55.344] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[02Oct2024 00:18:55.843] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[02Oct2024 00:18:56.342] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[02Oct2024 00:18:56.839] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[02Oct2024 00:18:57.366] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[02Oct2024 00:18:57.839] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[02Oct2024 00:18:58.108] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[02Oct2024 00:18:58.117] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2791 ms
+[02Oct2024 00:18:58.146] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[02Oct2024 00:18:58.147] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[02Oct2024 00:18:58.737] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:de456e3b] logged in with entity id 41 at (3.5, 89.0, -0.5)
+[02Oct2024 00:18:58.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[02Oct2024 00:18:58.908] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[02Oct2024 00:22:43.461] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2024 00:22:43.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2024 00:22:43.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2024 00:22:43.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2024 00:22:44.067] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[02Oct2024 00:22:44.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[02Oct2024 00:22:44.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[02Oct2024 00:22:44.140] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[02Oct2024 00:22:44.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Oct2024 00:22:44.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Oct2024 00:22:44.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Oct2024 00:22:45.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2024 00:22:45.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2024 00:22:45.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2024 00:22:45.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[02Oct2024 00:22:45.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Oct2024 00:22:45.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Oct2024 00:22:45.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Oct2024 00:22:45.360] [Server thread/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Cannot get config value before config is loaded.
+	Index: 0
+	Listeners:
+		0: com.example.examplemod.HangMan$$Lambda/0x00000156e0da2e08@7c752096
+java.lang.IllegalStateException: Cannot get config value before config is loaded.
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1234)
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1221)
+	at TRANSFORMER/hangman@1.0.0/com.example.examplemod.Config.refreshServer(Config.java:32)
+	at TRANSFORMER/hangman@1.0.0/com.example.examplemod.HangMan.modConfig(HangMan.java:70)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:158)
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ModConfig.setConfig(ModConfig.java:79)
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.closeConfig(ConfigTracker.java:233)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351)
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.unloadConfigs(ConfigTracker.java:129)
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerStopped(ServerLifecycleHooks.java:136)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:756)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02Oct2024 00:22:45.361] [Server thread/ERROR] [net.neoforged.fml.ModContainer/LOADING]: Caught exception during event net.neoforged.fml.event.config.ModConfigEvent$Unloading@1e0b6d45 dispatch for modid hangman
+java.lang.IllegalStateException: Cannot get config value before config is loaded.
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar%23106!/:?]
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1234) ~[neoforge-21.1.64-minecraft-merged.jar%23184!/:?]
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1221) ~[neoforge-21.1.64-minecraft-merged.jar%23184!/:?]
+	at TRANSFORMER/hangman@1.0.0/com.example.examplemod.Config.refreshServer(Config.java:32) ~[%23185!/:?]
+	at TRANSFORMER/hangman@1.0.0/com.example.examplemod.HangMan.modConfig(HangMan.java:70) ~[%23185!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26) ~[bus-8.0.2.jar%23141!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%23141!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.2.jar%23141!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:158) ~[loader-4.0.24.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ModConfig.setConfig(ModConfig.java:79) ~[loader-4.0.24.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.closeConfig(ConfigTracker.java:233) ~[loader-4.0.24.jar%23139!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.unloadConfigs(ConfigTracker.java:129) ~[loader-4.0.24.jar%23139!/:4.0]
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerStopped(ServerLifecycleHooks.java:136) ~[neoforge-21.1.64-minecraft-merged.jar%23184!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:756) ~[neoforge-21.1.64-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.64-minecraft-merged.jar%23183!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[02Oct2024 00:22:45.362] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Uncaught exception in server thread
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Example Mod (hangman) encountered an error while dispatching the net.neoforged.fml.event.config.ModConfigEvent$Unloading event
+	  java.lang.IllegalStateException: Cannot get config value before config is loaded.
+
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:162) ~[loader-4.0.24.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ModConfig.setConfig(ModConfig.java:79) ~[loader-4.0.24.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.closeConfig(ConfigTracker.java:233) ~[loader-4.0.24.jar%23139!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.config.ConfigTracker.unloadConfigs(ConfigTracker.java:129) ~[loader-4.0.24.jar%23139!/:4.0]
+	at TRANSFORMER/neoforge@21.1.64/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerStopped(ServerLifecycleHooks.java:136) ~[neoforge-21.1.64-minecraft-merged.jar%23184!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:756) ~[neoforge-21.1.64-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.64-minecraft-merged.jar%23183!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
